@@ -1,0 +1,165 @@
+{
+  "clip": {
+    "description": "Riproduce una clip audio.",
+    "usagesReply": "Sintassi: /clip <nome>",
+    "errorQueue": "Non posso riprodurre perché c'è già una playlist attiva.",
+    "errorNotChannel": "Devi entrare in un canale vocale!"
+  },
+  "clips": {
+    "description": "Lista di tutti i clips."
+  },
+  "help": {
+    "description": "Mostra tutti i comandi e le loro descrizioni.",
+    "embedTitle": "{botname} help",
+    "embedDescription": "Lista dei comandi:"
+  },
+  "invite": {
+    "description": "Manda il link del bot."
+  },
+  "loop": {
+    "description": "Mette la musica in loop.",
+    "errorNotQueue": "Non c'è niente da riprodurre.",
+    "result": "Il loop è ora {loop}"
+  },
+  "lyrics": {
+    "description": "Cercando lyrics per la canzone in riproduzione.",
+    "errorNotQueue": "Non c'è niente da riprodurre.",
+    "lyricsNotFound": "Nessun lyrics trovato per {title}.",
+    "embedTitle": "{title} - Lyrics"
+  },
+  "move": {
+    "description": "Sposta la canzone di posizione nella coda.",
+    "errorNotQueue": "Non c'è una coda.",
+    "usagesReply": "Usage: {prefix}move <Queue Number>",
+    "result": "<@{author}> 🚚 ha spostato **{title}** a {index} nella coda."
+  },
+  "nowplaying": {
+    "description": "Mostra la canzone in riproduzione.",
+    "errorNotQueue": "Non c'è niente da riprodurre.",
+    "embedTitle": "Riproducendo",
+    "live": " ◉ LIVE",
+    "timeRemaining": "Tempo rimanente: {time}"
+  },
+  "pause": {
+    "description": "Mette in pausa la canzone in riproduzione.",
+    "errorNotQueue": "Non c'è niente da riprodurre.",
+    "result": "<@{author}> ⏸ ha messo in pausa."
+  },
+  "ping": {
+    "description": "Mostra il ping del bot.",
+    "result": "📈 Ping medio dell'API: {ping} ms"
+  },
+  "play": {
+    "description": "Riproduce canzoni/video da YouTube.",
+    "errorNotChannel": "Devi entrare in un canale vocale!",
+    "errorNotInSameChannel": "Devi essere nello stesso canale di {user}",
+    "usageReply": "Sintassi: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
+    "missingPermissionConnect": "Impossibile entrare nel canale vocale, permessi mancanti!",
+    "missingPermissionSpeak": "Non posso parlare in questo canale, controlla bene i permessi!",
+    "queueAdded": "✅ **{title}** è stato aggiunto alla coda <@{author}>",
+    "cantJoinChannel": "Impossibile entrare nel canale: {error}",
+    "queueEnded": "❌ Coda finita.",
+    "queueError": "Errore: {error}",
+    "startedPlaying": "🎶 Inizio riproduzione: **{title}** {url}",
+    "skipSong": "<@{author}> ⏩ ha skippato la canzone",
+    "pauseSong": "<@{author}> ⏸ ha messo in pausa la canzone.",
+    "resumeSong": "<@{author}> ▶ ha ripreso la canzone!",
+    "unmutedSong": "<@{author}> 🔊 ha smutato la canzone!",
+    "mutedSong": "<@{author}> 🔇 ha mutato la canzone!",
+    "decreasedVolume": "<@{author}> 🔉 ha abbassato il volume, il volume è ora {volume}%",
+    "increasedVolume": "<@{author}> 🔊 ha alzato volume, il volume è ora {volume}%",
+    "loopSong": "<@{author}> Il loop è ora {loop}",
+    "stopSong": "<@{author}> ⏹ musica stoppata!",
+    "leaveChannel": "❗️ Uscendo dal canale (tempo limite raggiunto)."
+  },
+  "playlist": {
+    "description": "Riproduce una playlist da YouTube.",
+    "usagesReply": "Sintassi: {prefix}playlist <YouTube Playlist URL | Nome della playlist>",
+    "errorNotChannel": "Devi entrare in un canale vocale!",
+    "errorNotInSameChannel": "Devi essere nello stesso canale di {user}",
+    "missingPermissionConnect": "Impossibile entrare nel canale vocale, permessi mancanti.",
+    "missingPermissionSpeak": "Non posso parlare in questo canale, controlla bene i permessi!",
+    "errorNotFoundPlaylist": "Playlist non trovata :(",
+    "fetchingPlaylist": "⌛ cercando la playlist...",
+    "playlistCharLimit": "\nLa playlist contiene troppi caratteri nel nome...",
+    "startedPlaylist": "<@{author}> ha startato una playlist.",
+    "cantJoinChannel": "Impossibile unirsi al canale: {error}"
+  },
+  "pruning": {
+    "description": "Attiva o disattiva l'eliminazione dei messaggi dei bot.",
+    "errorWritingFile": "Si è verificato un errore durante la scrittura nel file.",
+    "result": "L'eliminazione dei messaggi è {result}"
+  },
+  "queue": {
+    "description": "Mostra la coda delle canzoni.",
+    "missingPermissionMessage": "Permessi mancanti per gestire i messaggi o aggiungere reazioni",
+    "errorNotQueue": "❌ **Non c'è nessuna canzone in riproduzione.**",
+    "currentPage": "Pagina - ",
+    "embedTitle": "Lista delle canzoni\n",
+    "embedCurrentSong": "**Canzone attuale - [{title}]({url})**\n\n{info}"
+  },
+  "remove": {
+    "description": "Riumuove una canzone dalla lista.",
+    "errorNotQueue": "Non c'è una coda.",
+    "usageReply": "Sintassi: {prefix}remove <numero canzone in coda>",
+    "result": "<@{author}> ❌ ha rimosso **{title}** dalla lista."
+  },
+  "resume": {
+    "description": "Riprende la riproduzione di musica.",
+    "errorNotQueue": "Non c'è niente da riprodurre.",
+    "resultNotPlaying": "<@{author}> ▶ ha ripreso la canzone!",
+    "errorPlaying": "La coda non è in pausa."
+  },
+  "search": {
+    "description": "Cerca e seleziona un video.",
+    "usageReply": "Sintassi: {prefix}{name} <nome>",
+    "errorAlreadyCollector": "Un raccoglitore di messaggi è già attivo in questo canale.",
+    "errorNotChannel": "Devi entrare in un canale vocale!",
+    "resultEmbedTtile": "**Rispondi con il numero del brano che desideri riprodurre.**",
+    "resultEmbedDesc": "Risultati per: {search}"
+  },
+  "shuffle": {
+    "description": "Coda casuale.",
+    "errorNotQueue": "Non c'è una coda.",
+    "result": "<@{author}> 🔀 ha mixato la coda"
+  },
+  "skip": {
+    "description": "Skippa la canzone in riproduzione.",
+    "errorNotQueue": "Non c'è nulla in riproduzione che posso skippare.",
+    "result": "<@{author}> ⏭ ha skippato la canzone."
+  },
+  "skipto": {
+    "description": "Skippa la canzone al numero della lista.",
+    "usageReply": "Sintassi: {prefix}{name} <numero canzone in coda>",
+    "errorNotQueue": "Non c'è una coda.",
+    "errorNotValid": "La coda è formata da solo {length} canzoni!",
+    "result": "<@{author}> ⏭ ha skippato {arg} canzoni"
+  },
+  "stop": {
+    "description": "Stoppa la musica.",
+    "errorNotQueue": "Non c'è niente da riprodurre.",
+    "result": "<@{author}> ⏹ ha stoppato la musica!"
+  },
+  "uptime": {
+    "description": "Mostra l'uptime del bot.",
+    "result": "Uptime: `{days} giorni(o),{hours} ore, {minutes} minuti, {seconds} secondi`"
+  },
+  "volume": {
+    "description": "Cambia il volume della musica in riproduzione.",
+    "errorNotQueue": "Non c'è niente da riprodurre.",
+    "errorNotChannel": "Devi entrare in un canale vocale!",
+    "currentVolume": "🔊 Il volume attuale è: **{volume}%**",
+    "errorNotNumber": "Usa un numero per specificare il volume.",
+    "errorNotValid": "Usa un numero tra 0 e 100.",
+    "result": "Volume settato a: **{arg}%**"
+  },
+  "common": {
+    "on": "**attivo**",
+    "off": "**disattivato**",
+    "enabled": "**abilitato**",
+    "disabled": "**disabilitato**",
+    "errorNotChannel": "Devi entrare in un canale vocale!",
+    "cooldownMessage": "Attendi {time} secondi(o) prima di usare il comando `{name}`.",
+    "errorCommend": "C'è stato un errore nell'eseguire questo comando."
+  }
+}
